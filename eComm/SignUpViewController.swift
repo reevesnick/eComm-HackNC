@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SignUpViewController: UIViewController {
 
     @IBOutlet var loginButton: UIButton!
     @IBOutlet var emailTextField: UITextField!
