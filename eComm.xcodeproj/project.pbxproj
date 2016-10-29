@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0A76F6DF272C41254AC05663 /* Pods_eComm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EE894B5246CAF8650DEBF6 /* Pods_eComm.framework */; };
+		0AD2CE361DC50D45003C6E7E /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2CE351DC50D45003C6E7E /* CreateAccountViewController.swift */; };
+		0AD2CE381DC51093003C6E7E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2CE371DC51093003C6E7E /* Profile.swift */; };
+		0AD2CE3A1DC51A72003C6E7E /* ProfileTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2CE391DC51A72003C6E7E /* ProfileTableTableViewController.swift */; };
 		279B7E45A71D36AE6D953CFF /* Pods_eCommUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6AD0B3BA2FE92BD9B4DEAC /* Pods_eCommUITests.framework */; };
 		7A95CABCA07F3570A12707EA /* Pods_eCommTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBA68FECA42C23C80E14E26 /* Pods_eCommTests.framework */; };
 		D1D913CB1DC4EF1C00622940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D913CA1DC4EF1C00622940 /* AppDelegate.swift */; };
@@ -53,6 +56,9 @@
 
 /* Begin PBXFileReference section */
 		0882AFC472F87AA07621A63D /* Pods-eCommUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCommUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eCommUITests/Pods-eCommUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0AD2CE351DC50D45003C6E7E /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		0AD2CE371DC51093003C6E7E /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		0AD2CE391DC51A72003C6E7E /* ProfileTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableTableViewController.swift; sourceTree = "<group>"; };
 		56B7B158D52CE4FB76C49D1D /* Pods-eComm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eComm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eComm/Pods-eComm.debug.xcconfig"; sourceTree = "<group>"; };
 		712392795DC289BCB25A05F2 /* Pods-eCommTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCommTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eCommTests/Pods-eCommTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B6AD0B3BA2FE92BD9B4DEAC /* Pods_eCommUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eCommUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +177,9 @@
 			children = (
 				D1D913CA1DC4EF1C00622940 /* AppDelegate.swift */,
 				D1D913CC1DC4EF1C00622940 /* ViewController.swift */,
+				0AD2CE351DC50D45003C6E7E /* CreateAccountViewController.swift */,
+				0AD2CE371DC51093003C6E7E /* Profile.swift */,
+				0AD2CE391DC51A72003C6E7E /* ProfileTableTableViewController.swift */,
 				D1D913CE1DC4EF1C00622940 /* Main.storyboard */,
 				D1D913D41DC4EF1C00622940 /* Assets.xcassets */,
 				D1D913D61DC4EF1C00622940 /* LaunchScreen.storyboard */,
@@ -512,6 +521,9 @@
 				D1DB34E51DC4F53B00439BD4 /* Deposit.swift in Sources */,
 				D1DB34DF1DC4F53B00439BD4 /* Account.swift in Sources */,
 				D1D913CB1DC4EF1C00622940 /* AppDelegate.swift in Sources */,
+				0AD2CE3A1DC51A72003C6E7E /* ProfileTableTableViewController.swift in Sources */,
+				0AD2CE381DC51093003C6E7E /* Profile.swift in Sources */,
+				0AD2CE361DC50D45003C6E7E /* CreateAccountViewController.swift in Sources */,
 				D1DB34E21DC4F53B00439BD4 /* Bill.swift in Sources */,
 				D1DB34EA1DC4F53B00439BD4 /* Purchase.swift in Sources */,
 				D1DB34E31DC4F53B00439BD4 /* Branch.swift in Sources */,
