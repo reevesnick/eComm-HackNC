@@ -6,6 +6,10 @@ target 'eComm' do
   use_frameworks!
 
   # Pods for eComm
+  pod 'SwiftyJSON'
+  pod 'TisprCardStack', '~> 0.3.1'
+
+
 
   target 'eCommTests' do
     inherit! :search_paths

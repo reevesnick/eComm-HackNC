@@ -7,53 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C8E000DE008ED367267FAB3EFA44D65 /* Pods-eComm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5696E1DC264CBC01342E53EFCE75C29 /* Pods-eComm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		053A697378BC644226E1F6FE2C96712B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0F16A5F5B94FE9E331E54F76FA4E4B3A /* TisprCardStack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D531A5B05D7BE7C3752D7D26DE2F14 /* TisprCardStack-dummy.m */; };
+		17B248493294BC2EEF2FDBA4E30507DC /* TisprCardStackViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE38B25CAF8E04B2A9B8B89A5DF564 /* TisprCardStackViewCell.swift */; };
+		2F20B25A0B60D9327D9249962E45A505 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		3480ACF89949B1C3D0A542CD33FEF976 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA22A2E190D33F1205F6971A166D32 /* SwiftyJSON-dummy.m */; };
+		4126A8CB0A1715998DB97A3C86A37C6E /* Pods-eComm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5696E1DC264CBC01342E53EFCE75C29 /* Pods-eComm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59A1E542C62D561387666457FCB6E934 /* TisprCardStack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C24584759E403D7D7113716CE2E10352 /* TisprCardStack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A457F35FA2DF3FA255A272F69581914 /* Pods-eCommUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C91D27BA321674AE9495FAA0A82B2 /* Pods-eCommUITests-dummy.m */; };
 		724426FA1F41B934D9FCE1B317AFE595 /* Pods-eCommTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D98B5F410135012EC401A2153D5FAE /* Pods-eCommTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73F4B95ED3AC6D1C30FE6C3F49D519F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		7466D9164497B0F0EAE98CF948427704 /* Pods-eCommUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E9AEFE0ED142CD7133356BD3ACC12CF /* Pods-eCommUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8ABD9B20FF54D62F7037BA4B80F023F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		8C864E129AD133C5DDA7552A6E589668 /* Pods-eComm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EBB8DC6A882926F3CBD5448B201044 /* Pods-eComm-dummy.m */; };
+		8EE68591638E4EEF7EF71E47F065F263 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D99F6FA44E3061B28CE4D50DFA4616 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		956ACB2D66F0A0624487611A9B9F8B59 /* Pods-eCommTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FF1D212D40CF97FE1868B5C425178A /* Pods-eCommTests-dummy.m */; };
+		9B43410E3FB1F453C912AFEA859AAF36 /* TisprCardStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07944DF6E30226AD90E529D1EBFCFCAD /* TisprCardStackViewController.swift */; };
 		AB4D464CBE62C61CAE5EA8BA286F034A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E159B5F55C418FD1C3A0C12E953AC8E7 /* Pods-eComm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EBB8DC6A882926F3CBD5448B201044 /* Pods-eComm-dummy.m */; };
+		C87320FB2574AD472EE1220E120209D8 /* TisprCardStackViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E796235B152F59BF89BCF8A731913F4B /* TisprCardStackViewLayout.swift */; };
+		E8329A56C81068485D99CE457CE5D8D4 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96BA24E14FF4207DE089038846B005A /* SwiftyJSON.swift */; };
 		F5BC96231E431ACE756D41AACD859135 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A28B90D11554C27829362CC0072EC3B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A82DA33C431B3EFBD856988FCD4AFEF;
+			remoteInfo = TisprCardStack;
+		};
+		ACD09F60E1E685F12FD9D1B0B04DAB50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38343F3022A21E1FB4A21897F3AB464A;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0396BBCBBC133ECC47233DC6996B0501 /* Pods-eComm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eComm.debug.xcconfig"; sourceTree = "<group>"; };
 		04A12DAE9E42B60A66362B120D320848 /* Pods-eCommTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-eCommTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		06FF1D212D40CF97FE1868B5C425178A /* Pods-eCommTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-eCommTests-dummy.m"; sourceTree = "<group>"; };
+		07944DF6E30226AD90E529D1EBFCFCAD /* TisprCardStackViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TisprCardStackViewController.swift; path = TisprCardStack/TisprCardStack/TisprCardStackViewController.swift; sourceTree = "<group>"; };
+		0A26873C953BD57557F61656CBBC08F1 /* Pods_eCommUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eCommUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADA185D11D1BBF58598B0BA60E48FED /* Pods-eCommUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eCommUITests.release.xcconfig"; sourceTree = "<group>"; };
 		145A8A2CE03DFB305CD2C24F0113081D /* Pods-eCommUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eCommUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B382EDD2EA46F51D87B3D84A44DDCF2 /* Pods-eCommUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-eCommUITests-frameworks.sh"; sourceTree = "<group>"; };
 		1E9AEFE0ED142CD7133356BD3ACC12CF /* Pods-eCommUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-eCommUITests-umbrella.h"; sourceTree = "<group>"; };
+		1EE8CBC6972BEC05C2EB4343337ACCA4 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		259C91D27BA321674AE9495FAA0A82B2 /* Pods-eCommUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-eCommUITests-dummy.m"; sourceTree = "<group>"; };
 		2D291509C72F9A74A4D5F155C351D789 /* Pods-eComm-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-eComm-resources.sh"; sourceTree = "<group>"; };
+		2EBC293A38564997A630E736EA146315 /* TisprCardStack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TisprCardStack.xcconfig; sourceTree = "<group>"; };
+		2F00B53A883E912576DCC83CD8C4CA60 /* TisprCardStack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TisprCardStack-prefix.pch"; sourceTree = "<group>"; };
+		30B7C9CA3A7559CAA46B61393DEC6139 /* Pods_eComm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eComm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3369BF10504A084F44A95B2DB9CC8A31 /* Pods-eCommTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-eCommTests-resources.sh"; sourceTree = "<group>"; };
 		3E34772A84A7140BE1E364542979E6C4 /* Pods-eCommTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eCommTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3FD40999B7EBC9E91A17A7A7A2237128 /* Pods-eCommTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-eCommTests-frameworks.sh"; sourceTree = "<group>"; };
+		44FE38B25CAF8E04B2A9B8B89A5DF564 /* TisprCardStackViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TisprCardStackViewCell.swift; path = TisprCardStack/TisprCardStack/TisprCardStackViewCell.swift; sourceTree = "<group>"; };
 		4A998108BEAA232D9C1A0ABCEDF3754F /* Pods-eCommTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eCommTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4D5B01259218A5F2DC182D9CDDF5E4D3 /* Pods-eCommTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eCommTests.release.xcconfig"; sourceTree = "<group>"; };
 		506E6DF67D862D3EEA20FA243E729FEC /* Pods-eComm-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-eComm-frameworks.sh"; sourceTree = "<group>"; };
 		62788ED678F3ECE26552AEFD061BA75C /* Pods-eCommUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-eCommUITests.modulemap"; sourceTree = "<group>"; };
+		686DD726FDCC2183825AC936C1A36EA9 /* TisprCardStack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TisprCardStack.modulemap; sourceTree = "<group>"; };
 		70090353E0AD0FD19A533C0E45449718 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80B2E7579BDC34F7B2AA14BAF4550B10 /* Pods_eCommUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eCommUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A8D74E4BE86EFBB1092466B7BBED351 /* Pods_eComm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eComm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E207B59B302C559A9B024ED50FF504F /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		9118703B1F2C0BB04946F6BAA89AFEE1 /* Pods-eCommUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eCommUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		994C5A08DD376CC0F13FF00ABE8AA8F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99AA97B182ED8E2422637F5464092A48 /* Pods-eComm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eComm.release.xcconfig"; sourceTree = "<group>"; };
 		A23DF32A671179D623D6189FAE81EF54 /* Pods-eComm-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-eComm-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A286E36461AE4462AE0C64A7384E01CD /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		A3D531A5B05D7BE7C3752D7D26DE2F14 /* TisprCardStack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TisprCardStack-dummy.m"; sourceTree = "<group>"; };
+		A436436A56EF026C56B1E9AD2B92529D /* Pods_eCommTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eCommTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA71DE90018BB3BF5042891E8FA7276 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D99F6FA44E3061B28CE4D50DFA4616 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		B9012F25724967E8079C4BF320104936 /* Pods-eCommUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-eCommUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C24584759E403D7D7113716CE2E10352 /* TisprCardStack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TisprCardStack-umbrella.h"; sourceTree = "<group>"; };
+		C80F6D9E7CD46BADB8E91E4847D59060 /* TisprCardStack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TisprCardStack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DB1C96D075A8104524D2D58D5EE421 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CFE8915E7CD195F52206C71CCE7CEB09 /* Pods-eCommUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-eCommUITests-resources.sh"; sourceTree = "<group>"; };
+		D0FA22A2E190D33F1205F6971A166D32 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		D1EBB8DC6A882926F3CBD5448B201044 /* Pods-eComm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-eComm-dummy.m"; sourceTree = "<group>"; };
+		D96BA24E14FF4207DE089038846B005A /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		DCB46D20FEB35E837C62AAC91EF9396A /* Pods-eComm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-eComm.modulemap"; sourceTree = "<group>"; };
 		E5696E1DC264CBC01342E53EFCE75C29 /* Pods-eComm-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-eComm-umbrella.h"; sourceTree = "<group>"; };
+		E796235B152F59BF89BCF8A731913F4B /* TisprCardStackViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TisprCardStackViewLayout.swift; path = TisprCardStack/TisprCardStack/TisprCardStackViewLayout.swift; sourceTree = "<group>"; };
 		EA73BCE5F21630214CA68446D7927355 /* Pods-eCommTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-eCommTests.modulemap"; sourceTree = "<group>"; };
+		ECBF7D07BC8E136D10AC4CDB707F4ECE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0BFEE7FBB2910F9D3C641A12FD47184 /* Pods-eComm-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eComm-acknowledgements.plist"; sourceTree = "<group>"; };
 		F3D98B5F410135012EC401A2153D5FAE /* Pods-eCommTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-eCommTests-umbrella.h"; sourceTree = "<group>"; };
 		F3F7A6021B165A001443C2284B49E087 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA852D91F93F5E300E6E7B35E38D10F3 /* Pods_eCommTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eCommTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +118,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBE99837A6C75E191BC7122095579C88 /* Frameworks */ = {
+		6C7E7FAEF4D812C7F171424D81D9A8BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ABD9B20FF54D62F7037BA4B80F023F2 /* Foundation.framework in Frameworks */,
+				053A697378BC644226E1F6FE2C96712B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8410764F15BC33278590746034A4580E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F20B25A0B60D9327D9249962E45A505 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9668782C72AE033958F3EE5D24C3A7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F4B95ED3AC6D1C30FE6C3F49D519F0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,14 +153,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4FF41FA2789BBD24457AF5423DAAC81F /* Products */ = {
+		465C2351089C9589CAC65D262C4A1173 /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				8A8D74E4BE86EFBB1092466B7BBED351 /* Pods_eComm.framework */,
-				FA852D91F93F5E300E6E7B35E38D10F3 /* Pods_eCommTests.framework */,
-				80B2E7579BDC34F7B2AA14BAF4550B10 /* Pods_eCommUITests.framework */,
+				D96BA24E14FF4207DE089038846B005A /* SwiftyJSON.swift */,
+				D0B0A5CC11DFC80990A3D71EE180B6A0 /* Support Files */,
 			);
-			name = Products;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		6782101193A7A99FEDC8C09E72DDD045 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECBF7D07BC8E136D10AC4CDB707F4ECE /* Info.plist */,
+				686DD726FDCC2183825AC936C1A36EA9 /* TisprCardStack.modulemap */,
+				2EBC293A38564997A630E736EA146315 /* TisprCardStack.xcconfig */,
+				A3D531A5B05D7BE7C3752D7D26DE2F14 /* TisprCardStack-dummy.m */,
+				2F00B53A883E912576DCC83CD8C4CA60 /* TisprCardStack-prefix.pch */,
+				C24584759E403D7D7113716CE2E10352 /* TisprCardStack-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TisprCardStack";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -107,9 +181,19 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4FF41FA2789BBD24457AF5423DAAC81F /* Products */,
+				7E59ED7CA8302BB7D6F03686F53FBC3B /* Pods */,
+				F8C4F84994426F8B5857AC76F6A1BCD7 /* Products */,
 				85A445EF4E0709763EB6EAD4C49C6408 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7E59ED7CA8302BB7D6F03686F53FBC3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				465C2351089C9589CAC65D262C4A1173 /* SwiftyJSON */,
+				D4A86131C5258D6A3274C16F882AFC03 /* TisprCardStack */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		85A445EF4E0709763EB6EAD4C49C6408 /* Targets Support Files */ = {
@@ -148,6 +232,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D0B0A5CC11DFC80990A3D71EE180B6A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9DB1C96D075A8104524D2D58D5EE421 /* Info.plist */,
+				A286E36461AE4462AE0C64A7384E01CD /* SwiftyJSON.modulemap */,
+				7E207B59B302C559A9B024ED50FF504F /* SwiftyJSON.xcconfig */,
+				D0FA22A2E190D33F1205F6971A166D32 /* SwiftyJSON-dummy.m */,
+				1EE8CBC6972BEC05C2EB4343337ACCA4 /* SwiftyJSON-prefix.pch */,
+				B0D99F6FA44E3061B28CE4D50DFA4616 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		D4A86131C5258D6A3274C16F882AFC03 /* TisprCardStack */ = {
+			isa = PBXGroup;
+			children = (
+				44FE38B25CAF8E04B2A9B8B89A5DF564 /* TisprCardStackViewCell.swift */,
+				07944DF6E30226AD90E529D1EBFCFCAD /* TisprCardStackViewController.swift */,
+				E796235B152F59BF89BCF8A731913F4B /* TisprCardStackViewLayout.swift */,
+				6782101193A7A99FEDC8C09E72DDD045 /* Support Files */,
+			);
+			path = TisprCardStack;
+			sourceTree = "<group>";
+		};
 		E0334C6B4485DFC3205BB91B41D61BA8 /* Pods-eCommUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,14 +293,26 @@
 			path = "Target Support Files/Pods-eCommTests";
 			sourceTree = "<group>";
 		};
+		F8C4F84994426F8B5857AC76F6A1BCD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30B7C9CA3A7559CAA46B61393DEC6139 /* Pods_eComm.framework */,
+				A436436A56EF026C56B1E9AD2B92529D /* Pods_eCommTests.framework */,
+				0A26873C953BD57557F61656CBBC08F1 /* Pods_eCommUITests.framework */,
+				AFA71DE90018BB3BF5042891E8FA7276 /* SwiftyJSON.framework */,
+				C80F6D9E7CD46BADB8E91E4847D59060 /* TisprCardStack.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4E4235E21F0C84E24E48E31DFD5E10AF /* Headers */ = {
+		1E79163E673E45C1F0F13CC22F327FBB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C8E000DE008ED367267FAB3EFA44D65 /* Pods-eComm-umbrella.h in Headers */,
+				4126A8CB0A1715998DB97A3C86A37C6E /* Pods-eComm-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +321,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				724426FA1F41B934D9FCE1B317AFE595 /* Pods-eCommTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917B09969CCA1CAA1DC705959DFB5620 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE68591638E4EEF7EF71E47F065F263 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A53DF93156297CCB4895A8D34AB8362 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A1E542C62D561387666457FCB6E934 /* TisprCardStack-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,24 +365,60 @@
 			);
 			name = "Pods-eCommTests";
 			productName = "Pods-eCommTests";
-			productReference = FA852D91F93F5E300E6E7B35E38D10F3 /* Pods_eCommTests.framework */;
+			productReference = A436436A56EF026C56B1E9AD2B92529D /* Pods_eCommTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		936A30E6CA13B00853BC90842C36F50A /* Pods-eComm */ = {
+		38343F3022A21E1FB4A21897F3AB464A /* SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1160C3024F038A5086151F1DE89AE077 /* Build configuration list for PBXNativeTarget "Pods-eComm" */;
+			buildConfigurationList = B372973DE81A9CA6E04A29770872E6FB /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
 			buildPhases = (
-				9EF70E443B611EC84BE86096C05BA9B5 /* Sources */,
-				EBE99837A6C75E191BC7122095579C88 /* Frameworks */,
-				4E4235E21F0C84E24E48E31DFD5E10AF /* Headers */,
+				256E063006FFE3A8FD7BB1891DD87B0E /* Sources */,
+				6C7E7FAEF4D812C7F171424D81D9A8BA /* Frameworks */,
+				917B09969CCA1CAA1DC705959DFB5620 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = AFA71DE90018BB3BF5042891E8FA7276 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3A82DA33C431B3EFBD856988FCD4AFEF /* TisprCardStack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E7E59A18EA80941B0C9AF44A5EA8A6 /* Build configuration list for PBXNativeTarget "TisprCardStack" */;
+			buildPhases = (
+				9DEB86993EBBC76198DBB4F14982853D /* Sources */,
+				9668782C72AE033958F3EE5D24C3A7D3 /* Frameworks */,
+				9A53DF93156297CCB4895A8D34AB8362 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TisprCardStack;
+			productName = TisprCardStack;
+			productReference = C80F6D9E7CD46BADB8E91E4847D59060 /* TisprCardStack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		44F41A5F3376A73BE442768509D7714E /* Pods-eComm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D95175E1F534DEDF1DFAF0766ABB2C4 /* Build configuration list for PBXNativeTarget "Pods-eComm" */;
+			buildPhases = (
+				3E2383DC53FAA49CD2FA65691D1D80B7 /* Sources */,
+				8410764F15BC33278590746034A4580E /* Frameworks */,
+				1E79163E673E45C1F0F13CC22F327FBB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82977A3B8DF44FCEA00E14ECE6C479B6 /* PBXTargetDependency */,
+				29230BF9306FA867C569853AA3D80CB4 /* PBXTargetDependency */,
+			);
 			name = "Pods-eComm";
 			productName = "Pods-eComm";
-			productReference = 8A8D74E4BE86EFBB1092466B7BBED351 /* Pods_eComm.framework */;
+			productReference = 30B7C9CA3A7559CAA46B61393DEC6139 /* Pods_eComm.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B36BB88841F3A85B09CDC91F48032BDC /* Pods-eCommUITests */ = {
@@ -262,7 +435,7 @@
 			);
 			name = "Pods-eCommUITests";
 			productName = "Pods-eCommUITests";
-			productReference = 80B2E7579BDC34F7B2AA14BAF4550B10 /* Pods_eCommUITests.framework */;
+			productReference = 0A26873C953BD57557F61656CBBC08F1 /* Pods_eCommUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -282,23 +455,45 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4FF41FA2789BBD24457AF5423DAAC81F /* Products */;
+			productRefGroup = F8C4F84994426F8B5857AC76F6A1BCD7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				936A30E6CA13B00853BC90842C36F50A /* Pods-eComm */,
+				44F41A5F3376A73BE442768509D7714E /* Pods-eComm */,
 				0B3E6490AF8790EEE43E1578CDCEBB58 /* Pods-eCommTests */,
 				B36BB88841F3A85B09CDC91F48032BDC /* Pods-eCommUITests */,
+				38343F3022A21E1FB4A21897F3AB464A /* SwiftyJSON */,
+				3A82DA33C431B3EFBD856988FCD4AFEF /* TisprCardStack */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9EF70E443B611EC84BE86096C05BA9B5 /* Sources */ = {
+		256E063006FFE3A8FD7BB1891DD87B0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E159B5F55C418FD1C3A0C12E953AC8E7 /* Pods-eComm-dummy.m in Sources */,
+				3480ACF89949B1C3D0A542CD33FEF976 /* SwiftyJSON-dummy.m in Sources */,
+				E8329A56C81068485D99CE457CE5D8D4 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2383DC53FAA49CD2FA65691D1D80B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C864E129AD133C5DDA7552A6E589668 /* Pods-eComm-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEB86993EBBC76198DBB4F14982853D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F16A5F5B94FE9E331E54F76FA4E4B3A /* TisprCardStack-dummy.m in Sources */,
+				17B248493294BC2EEF2FDBA4E30507DC /* TisprCardStackViewCell.swift in Sources */,
+				9B43410E3FB1F453C912AFEA859AAF36 /* TisprCardStackViewController.swift in Sources */,
+				C87320FB2574AD472EE1220E120209D8 /* TisprCardStackViewLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +514,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29230BF9306FA867C569853AA3D80CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TisprCardStack;
+			target = 3A82DA33C431B3EFBD856988FCD4AFEF /* TisprCardStack */;
+			targetProxy = A28B90D11554C27829362CC0072EC3B0 /* PBXContainerItemProxy */;
+		};
+		82977A3B8DF44FCEA00E14ECE6C479B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 38343F3022A21E1FB4A21897F3AB464A /* SwiftyJSON */;
+			targetProxy = ACD09F60E1E685F12FD9D1B0B04DAB50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		044EFD14BE7886BEF6EB9A2C0BC136EC /* Debug */ = {
@@ -356,40 +566,38 @@
 			};
 			name = Debug;
 		};
-		0CD6BEABD23D07D35DB57B50ECBAF0FA /* Release */ = {
+		08BB555447EA42074C5464A1CBDE0CB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99AA97B182ED8E2422637F5464092A48 /* Pods-eComm.release.xcconfig */;
+			baseConfigurationReference = 7E207B59B302C559A9B024ED50FF504F /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-eComm/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-eComm/Pods-eComm.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_eComm;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -435,6 +643,41 @@
 			};
 			name = Debug;
 		};
+		2A4ABFF8354A49C3D3C06D8ACE849B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99AA97B182ED8E2422637F5464092A48 /* Pods-eComm.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-eComm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-eComm/Pods-eComm.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_eComm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		312756F4E8B94CCFEED6960B91E030DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 145A8A2CE03DFB305CD2C24F0113081D /* Pods-eCommUITests.debug.xcconfig */;
@@ -470,6 +713,42 @@
 			};
 			name = Debug;
 		};
+		478F1E52A0BBC803CBC899B0EFDD59F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0396BBCBBC133ECC47233DC6996B0501 /* Pods-eComm.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-eComm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-eComm/Pods-eComm.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_eComm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		83165B6B396F7DB73E3750EA085F5163 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0ADA185D11D1BBF58598B0BA60E48FED /* Pods-eCommUITests.release.xcconfig */;
@@ -499,6 +778,103 @@
 				PRODUCT_NAME = Pods_eCommUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		834B6B315A87425CF6BB055A5DC5D1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E207B59B302C559A9B024ED50FF504F /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5B0ED1976C39780B9289940F7B66DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EBC293A38564997A630E736EA146315 /* TisprCardStack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TisprCardStack/TisprCardStack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TisprCardStack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TisprCardStack/TisprCardStack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TisprCardStack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF43A11066D5DB240084DA4EA6A7DF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EBC293A38564997A630E736EA146315 /* TisprCardStack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TisprCardStack/TisprCardStack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TisprCardStack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TisprCardStack/TisprCardStack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TisprCardStack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -580,58 +956,23 @@
 			};
 			name = Release;
 		};
-		FD2D677DEA2E6E54CA4E9D276DEF866D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0396BBCBBC133ECC47233DC6996B0501 /* Pods-eComm.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-eComm/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-eComm/Pods-eComm.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_eComm;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1160C3024F038A5086151F1DE89AE077 /* Build configuration list for PBXNativeTarget "Pods-eComm" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FD2D677DEA2E6E54CA4E9D276DEF866D /* Debug */,
-				0CD6BEABD23D07D35DB57B50ECBAF0FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2100322D58E4584BD519F163921CE999 /* Build configuration list for PBXNativeTarget "Pods-eCommUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				312756F4E8B94CCFEED6960B91E030DF /* Debug */,
 				83165B6B396F7DB73E3750EA085F5163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E7E59A18EA80941B0C9AF44A5EA8A6 /* Build configuration list for PBXNativeTarget "TisprCardStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B0ED1976C39780B9289940F7B66DBE /* Debug */,
+				CF43A11066D5DB240084DA4EA6A7DF69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -650,6 +991,24 @@
 			buildConfigurations = (
 				044EFD14BE7886BEF6EB9A2C0BC136EC /* Debug */,
 				F4357DE2308F44FF228741D806AE347F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D95175E1F534DEDF1DFAF0766ABB2C4 /* Build configuration list for PBXNativeTarget "Pods-eComm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478F1E52A0BBC803CBC899B0EFDD59F4 /* Debug */,
+				2A4ABFF8354A49C3D3C06D8ACE849B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B372973DE81A9CA6E04A29770872E6FB /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BB555447EA42074C5464A1CBDE0CB1 /* Debug */,
+				834B6B315A87425CF6BB055A5DC5D1D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

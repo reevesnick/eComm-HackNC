@@ -18,6 +18,20 @@
 		D1D913D81DC4EF1C00622940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D913D61DC4EF1C00622940 /* LaunchScreen.storyboard */; };
 		D1D913E31DC4EF1C00622940 /* eCommTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D913E21DC4EF1C00622940 /* eCommTests.swift */; };
 		D1D913EE1DC4EF1C00622940 /* eCommUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D913ED1DC4EF1C00622940 /* eCommUITests.swift */; };
+		D1DB34DF1DC4F53B00439BD4 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34D01DC4F53B00439BD4 /* Account.swift */; };
+		D1DB34E01DC4F53B00439BD4 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34D11DC4F53B00439BD4 /* Address.swift */; };
+		D1DB34E11DC4F53B00439BD4 /* ATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34D21DC4F53B00439BD4 /* ATM.swift */; };
+		D1DB34E21DC4F53B00439BD4 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34D31DC4F53B00439BD4 /* Bill.swift */; };
+		D1DB34E31DC4F53B00439BD4 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34D41DC4F53B00439BD4 /* Branch.swift */; };
+		D1DB34E41DC4F53B00439BD4 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34D51DC4F53B00439BD4 /* Customer.swift */; };
+		D1DB34E51DC4F53B00439BD4 /* Deposit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34D61DC4F53B00439BD4 /* Deposit.swift */; };
+		D1DB34E61DC4F53B00439BD4 /* EnterpriseRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34D71DC4F53B00439BD4 /* EnterpriseRequests.swift */; };
+		D1DB34E71DC4F53B00439BD4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1DB34D81DC4F53B00439BD4 /* Info.plist */; };
+		D1DB34E81DC4F53B00439BD4 /* Merchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34D91DC4F53B00439BD4 /* Merchant.swift */; };
+		D1DB34E91DC4F53B00439BD4 /* NSEClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34DB1DC4F53B00439BD4 /* NSEClient.swift */; };
+		D1DB34EA1DC4F53B00439BD4 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34DC1DC4F53B00439BD4 /* Purchase.swift */; };
+		D1DB34EB1DC4F53B00439BD4 /* Transfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34DD1DC4F53B00439BD4 /* Transfer.swift */; };
+		D1DB34EC1DC4F53B00439BD4 /* Withdrawal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34DE1DC4F53B00439BD4 /* Withdrawal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +74,21 @@
 		D1D913E91DC4EF1C00622940 /* eCommUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eCommUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D913ED1DC4EF1C00622940 /* eCommUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eCommUITests.swift; sourceTree = "<group>"; };
 		D1D913EF1DC4EF1C00622940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1DB34D01DC4F53B00439BD4 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		D1DB34D11DC4F53B00439BD4 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		D1DB34D21DC4F53B00439BD4 /* ATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATM.swift; sourceTree = "<group>"; };
+		D1DB34D31DC4F53B00439BD4 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		D1DB34D41DC4F53B00439BD4 /* Branch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		D1DB34D51DC4F53B00439BD4 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		D1DB34D61DC4F53B00439BD4 /* Deposit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deposit.swift; sourceTree = "<group>"; };
+		D1DB34D71DC4F53B00439BD4 /* EnterpriseRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterpriseRequests.swift; sourceTree = "<group>"; };
+		D1DB34D81DC4F53B00439BD4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1DB34D91DC4F53B00439BD4 /* Merchant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Merchant.swift; sourceTree = "<group>"; };
+		D1DB34DA1DC4F53B00439BD4 /* Nessie-iOS-Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Nessie-iOS-Wrapper.h"; sourceTree = "<group>"; };
+		D1DB34DB1DC4F53B00439BD4 /* NSEClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSEClient.swift; sourceTree = "<group>"; };
+		D1DB34DC1DC4F53B00439BD4 /* Purchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		D1DB34DD1DC4F53B00439BD4 /* Transfer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transfer.swift; sourceTree = "<group>"; };
+		D1DB34DE1DC4F53B00439BD4 /* Withdrawal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Withdrawal.swift; sourceTree = "<group>"; };
 		F98DCA590AB4596C4E311ECA /* Pods-eComm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eComm.release.xcconfig"; path = "Pods/Target Support Files/Pods-eComm/Pods-eComm.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +123,7 @@
 		10D9D1450650CF2DB8CE9ED0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1DB34CF1DC4F53B00439BD4 /* Nessie-iOS-Wrapper */,
 				A5EE894B5246CAF8650DEBF6 /* Pods_eComm.framework */,
 				BFBA68FECA42C23C80E14E26 /* Pods_eCommTests.framework */,
 				8B6AD0B3BA2FE92BD9B4DEAC /* Pods_eCommUITests.framework */,
@@ -166,6 +196,28 @@
 				D1D913EF1DC4EF1C00622940 /* Info.plist */,
 			);
 			path = eCommUITests;
+			sourceTree = "<group>";
+		};
+		D1DB34CF1DC4F53B00439BD4 /* Nessie-iOS-Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				D1DB34D01DC4F53B00439BD4 /* Account.swift */,
+				D1DB34D11DC4F53B00439BD4 /* Address.swift */,
+				D1DB34D21DC4F53B00439BD4 /* ATM.swift */,
+				D1DB34D31DC4F53B00439BD4 /* Bill.swift */,
+				D1DB34D41DC4F53B00439BD4 /* Branch.swift */,
+				D1DB34D51DC4F53B00439BD4 /* Customer.swift */,
+				D1DB34D61DC4F53B00439BD4 /* Deposit.swift */,
+				D1DB34D71DC4F53B00439BD4 /* EnterpriseRequests.swift */,
+				D1DB34D81DC4F53B00439BD4 /* Info.plist */,
+				D1DB34D91DC4F53B00439BD4 /* Merchant.swift */,
+				D1DB34DA1DC4F53B00439BD4 /* Nessie-iOS-Wrapper.h */,
+				D1DB34DB1DC4F53B00439BD4 /* NSEClient.swift */,
+				D1DB34DC1DC4F53B00439BD4 /* Purchase.swift */,
+				D1DB34DD1DC4F53B00439BD4 /* Transfer.swift */,
+				D1DB34DE1DC4F53B00439BD4 /* Withdrawal.swift */,
+			);
+			path = "Nessie-iOS-Wrapper";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1DB34E71DC4F53B00439BD4 /* Info.plist in Resources */,
 				D1D913D81DC4EF1C00622940 /* LaunchScreen.storyboard in Resources */,
 				D1D913D51DC4EF1C00622940 /* Assets.xcassets in Resources */,
 				D1D913D01DC4EF1C00622940 /* Main.storyboard in Resources */,
@@ -452,9 +505,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1DB34E11DC4F53B00439BD4 /* ATM.swift in Sources */,
+				D1DB34EB1DC4F53B00439BD4 /* Transfer.swift in Sources */,
+				D1DB34EC1DC4F53B00439BD4 /* Withdrawal.swift in Sources */,
 				D1D913CD1DC4EF1C00622940 /* ViewController.swift in Sources */,
+				D1DB34E51DC4F53B00439BD4 /* Deposit.swift in Sources */,
+				D1DB34DF1DC4F53B00439BD4 /* Account.swift in Sources */,
 				D1D913CB1DC4EF1C00622940 /* AppDelegate.swift in Sources */,
+				D1DB34E21DC4F53B00439BD4 /* Bill.swift in Sources */,
+				D1DB34EA1DC4F53B00439BD4 /* Purchase.swift in Sources */,
+				D1DB34E31DC4F53B00439BD4 /* Branch.swift in Sources */,
+				D1DB34E61DC4F53B00439BD4 /* EnterpriseRequests.swift in Sources */,
+				D1DB34E41DC4F53B00439BD4 /* Customer.swift in Sources */,
+				D1DB34E91DC4F53B00439BD4 /* NSEClient.swift in Sources */,
 				D1D913D31DC4EF1C00622940 /* eComm.xcdatamodeld in Sources */,
+				D1DB34E01DC4F53B00439BD4 /* Address.swift in Sources */,
+				D1DB34E81DC4F53B00439BD4 /* Merchant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,7 +676,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.eComm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -624,7 +690,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.eComm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
