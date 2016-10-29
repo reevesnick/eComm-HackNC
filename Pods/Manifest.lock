@@ -1,15 +1,15 @@
 PODS:
-  - SwiftyJSON (3.1.1)
+  - SwiftyJSON (2.4.0)
   - TisprCardStack (0.3.2)
 
 DEPENDENCIES:
-  - SwiftyJSON
+  - SwiftyJSON (= 2.4.0)
   - TisprCardStack (~> 0.3.1)
 
 SPEC CHECKSUMS:
-  SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
+  SwiftyJSON: 96918c1bf505efa50c4f72957018dd3452090c9c
   TisprCardStack: 5c37d578b1efe87cbeef2d4a6034ae3c2802ece1
 
-PODFILE CHECKSUM: 2b9fee32d1619d8684a61b2d4fcdbe3e5ec9905f
+PODFILE CHECKSUM: 7c5fef3e0f7f2d9f1f4ca1716a0721b27449b758
 
 COCOAPODS: 1.1.0.rc.2

@@ -6,7 +6,8 @@ target 'eComm' do
   use_frameworks!
 
   # Pods for eComm
-  pod 'SwiftyJSON'
+  pod 'SwiftyJSON', '2.4.0'
+
   pod 'TisprCardStack', '~> 0.3.1'
 
 
