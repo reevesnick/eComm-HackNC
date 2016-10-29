@@ -1,0 +1,6 @@
+framework module Pods_eCommUITests {
+  umbrella header "Pods-eCommUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
