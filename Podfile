@@ -9,6 +9,8 @@ target 'eComm' do
   pod 'SwiftyJSON', '2.4.0'
 
   pod 'TisprCardStack', '~> 0.3.1'
+  pod 'Parse'
+  pod 'ParseUI'
 
 
 

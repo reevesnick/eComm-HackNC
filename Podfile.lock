@@ -1,15 +1,26 @@
 PODS:
+  - Bolts/Tasks (1.8.4)
+  - Parse (1.14.2):
+    - Bolts/Tasks (~> 1.8)
+  - ParseUI (1.2.0):
+    - Bolts/Tasks (~> 1.3)
+    - Parse (~> 1.9)
   - SwiftyJSON (2.4.0)
   - TisprCardStack (0.3.2)
 
 DEPENDENCIES:
+  - Parse
+  - ParseUI
   - SwiftyJSON (= 2.4.0)
   - TisprCardStack (~> 0.3.1)
 
 SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
+  ParseUI: af2eba584799da4a9fbdac0e178662d7438b502e
   SwiftyJSON: 96918c1bf505efa50c4f72957018dd3452090c9c
   TisprCardStack: 5c37d578b1efe87cbeef2d4a6034ae3c2802ece1
 
-PODFILE CHECKSUM: 7c5fef3e0f7f2d9f1f4ca1716a0721b27449b758
+PODFILE CHECKSUM: 41d73ab86a27e272484439ba32fec27fcddae49e
 
 COCOAPODS: 1.1.0.rc.2

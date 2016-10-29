@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Parse.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ParseUI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-eComm.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +47,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0569FD55F69F05E0F13148742B7E52F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0B3E6490AF8790EEE43E1578CDCEBB58</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>38343F3022A21E1FB4A21897F3AB464A</key>
+		<key>2C8AA1BAF35413BDB954A1DF93576ED1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3A82DA33C431B3EFBD856988FCD4AFEF</key>
+		<key>39E7981BA9BE0A9AB9A393CE574EC0F8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>44F41A5F3376A73BE442768509D7714E</key>
+		<key>7129FAB61478FA70223DADF4921468CD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>B36BB88841F3A85B09CDC91F48032BDC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1F78B1C5F8F2CCD0E68552EAF2B9B52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB3A4D4509D778E49531BD0AC01979A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

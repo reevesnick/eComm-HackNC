@@ -14,7 +14,6 @@
 		279B7E45A71D36AE6D953CFF /* Pods_eCommUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6AD0B3BA2FE92BD9B4DEAC /* Pods_eCommUITests.framework */; };
 		7A95CABCA07F3570A12707EA /* Pods_eCommTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBA68FECA42C23C80E14E26 /* Pods_eCommTests.framework */; };
 		D1D913CB1DC4EF1C00622940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D913CA1DC4EF1C00622940 /* AppDelegate.swift */; };
-		D1D913CD1DC4EF1C00622940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D913CC1DC4EF1C00622940 /* ViewController.swift */; };
 		D1D913D01DC4EF1C00622940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D913CE1DC4EF1C00622940 /* Main.storyboard */; };
 		D1D913D31DC4EF1C00622940 /* eComm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1D913D11DC4EF1C00622940 /* eComm.xcdatamodeld */; };
 		D1D913D51DC4EF1C00622940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D913D41DC4EF1C00622940 /* Assets.xcassets */; };
@@ -35,6 +34,9 @@
 		D1DB34EA1DC4F53B00439BD4 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34DC1DC4F53B00439BD4 /* Purchase.swift */; };
 		D1DB34EB1DC4F53B00439BD4 /* Transfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34DD1DC4F53B00439BD4 /* Transfer.swift */; };
 		D1DB34EC1DC4F53B00439BD4 /* Withdrawal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34DE1DC4F53B00439BD4 /* Withdrawal.swift */; };
+		D1DB34EE1DC5369000439BD4 /* Cards_Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1DB34ED1DC5369000439BD4 /* Cards_Main.storyboard */; };
+		D1DB34F01DC5386900439BD4 /* CardStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34EF1DC5386900439BD4 /* CardStackViewController.swift */; };
+		D1DB34F21DC53A8800439BD4 /* CardStackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB34F11DC53A8800439BD4 /* CardStackCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +70,6 @@
 		CE2CA77656D560BCEFC87C55 /* Pods-eCommUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCommUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eCommUITests/Pods-eCommUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1D913C71DC4EF1C00622940 /* eComm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eComm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D913CA1DC4EF1C00622940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1D913CC1DC4EF1C00622940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1D913CF1DC4EF1C00622940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1D913D21DC4EF1C00622940 /* eComm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eComm.xcdatamodel; sourceTree = "<group>"; };
 		D1D913D41DC4EF1C00622940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,6 +96,9 @@
 		D1DB34DC1DC4F53B00439BD4 /* Purchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
 		D1DB34DD1DC4F53B00439BD4 /* Transfer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transfer.swift; sourceTree = "<group>"; };
 		D1DB34DE1DC4F53B00439BD4 /* Withdrawal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Withdrawal.swift; sourceTree = "<group>"; };
+		D1DB34ED1DC5369000439BD4 /* Cards_Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Cards_Main.storyboard; sourceTree = "<group>"; };
+		D1DB34EF1DC5386900439BD4 /* CardStackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStackViewController.swift; sourceTree = "<group>"; };
+		D1DB34F11DC53A8800439BD4 /* CardStackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStackCell.swift; sourceTree = "<group>"; };
 		F98DCA590AB4596C4E311ECA /* Pods-eComm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eComm.release.xcconfig"; path = "Pods/Target Support Files/Pods-eComm/Pods-eComm.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -176,7 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				D1D913CA1DC4EF1C00622940 /* AppDelegate.swift */,
-				D1D913CC1DC4EF1C00622940 /* ViewController.swift */,
 				0AD2CE351DC50D45003C6E7E /* CreateAccountViewController.swift */,
 				0AD2CE371DC51093003C6E7E /* Profile.swift */,
 				0AD2CE391DC51A72003C6E7E /* ProfileTableTableViewController.swift */,
@@ -185,6 +188,9 @@
 				D1D913D61DC4EF1C00622940 /* LaunchScreen.storyboard */,
 				D1D913D91DC4EF1C00622940 /* Info.plist */,
 				D1D913D11DC4EF1C00622940 /* eComm.xcdatamodeld */,
+				D1DB34ED1DC5369000439BD4 /* Cards_Main.storyboard */,
+				D1DB34EF1DC5386900439BD4 /* CardStackViewController.swift */,
+				D1DB34F11DC53A8800439BD4 /* CardStackCell.swift */,
 			);
 			path = eComm;
 			sourceTree = "<group>";
@@ -349,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1DB34E71DC4F53B00439BD4 /* Info.plist in Resources */,
+				D1DB34EE1DC5369000439BD4 /* Cards_Main.storyboard in Resources */,
 				D1D913D81DC4EF1C00622940 /* LaunchScreen.storyboard in Resources */,
 				D1D913D51DC4EF1C00622940 /* Assets.xcassets in Resources */,
 				D1D913D01DC4EF1C00622940 /* Main.storyboard in Resources */,
@@ -517,7 +524,6 @@
 				D1DB34E11DC4F53B00439BD4 /* ATM.swift in Sources */,
 				D1DB34EB1DC4F53B00439BD4 /* Transfer.swift in Sources */,
 				D1DB34EC1DC4F53B00439BD4 /* Withdrawal.swift in Sources */,
-				D1D913CD1DC4EF1C00622940 /* ViewController.swift in Sources */,
 				D1DB34E51DC4F53B00439BD4 /* Deposit.swift in Sources */,
 				D1DB34DF1DC4F53B00439BD4 /* Account.swift in Sources */,
 				D1D913CB1DC4EF1C00622940 /* AppDelegate.swift in Sources */,
@@ -527,11 +533,13 @@
 				D1DB34E21DC4F53B00439BD4 /* Bill.swift in Sources */,
 				D1DB34EA1DC4F53B00439BD4 /* Purchase.swift in Sources */,
 				D1DB34E31DC4F53B00439BD4 /* Branch.swift in Sources */,
+				D1DB34F01DC5386900439BD4 /* CardStackViewController.swift in Sources */,
 				D1DB34E61DC4F53B00439BD4 /* EnterpriseRequests.swift in Sources */,
 				D1DB34E41DC4F53B00439BD4 /* Customer.swift in Sources */,
 				D1DB34E91DC4F53B00439BD4 /* NSEClient.swift in Sources */,
 				D1D913D31DC4EF1C00622940 /* eComm.xcdatamodeld in Sources */,
 				D1DB34E01DC4F53B00439BD4 /* Address.swift in Sources */,
+				D1DB34F21DC53A8800439BD4 /* CardStackCell.swift in Sources */,
 				D1DB34E81DC4F53B00439BD4 /* Merchant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
